@@ -47,26 +47,32 @@ layout: default
     {% endif %}
   </article>
 
-</div>
 
-<div class="post">
+  <head>
+    {% include head.html %}
+    {% include scripts/mathjax.html %}
+  </head>
 
-  <div class="header-bar">
-    <h1>{{ site.blog_name }}</h1>
-    <h2>{{ site.blog_description }}</h2>
-  </div>
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
 
+    <!-- Header -->
 
-  <ul class="post-list">
-    {% for post in paginator.posts %}
-      <li>
-        <h3><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-        <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}</p>
-        <p>{{ post.description }}</p>
-      </li>
-    {% endfor %}
-  </ul>
+    {% include header.html %}
 
-  {% include pagination.html %}
+    <!-- Content -->
 
-</div>
+    <div class="container mt-5">
+      {{ content }}
+    </div>
+
+    <!-- Footer -->
+
+    {% include footer.html %}
+
+  </body>
+
+  {% include scripts/bootstrap.html %}
+  {% include scripts/mansory.html %}
+  {% include scripts/misc.html %}
+
+</html>
