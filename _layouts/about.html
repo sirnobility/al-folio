@@ -47,30 +47,26 @@ layout: default
     {% endif %}
   </article>
 
-
-
-  <article class="post-content">
-    {{ content }}
-  </article>
-
-  {% if site.disqus_shortname and page.comments %}
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-      var disqus_shortname  = '{{ site.disqus_shortname }}';
-      var disqus_identifier = '{{ page.id }}';
-      var disqus_title      = {{ page.title | jsonify }};
-      (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  {% endif %}
-
 </div>
 
+<div class="post">
+
+  <div class="header-bar">
+    <h1>{{ site.blog_name }}</h1>
+    <h2>{{ site.blog_description }}</h2>
+  </div>
 
 
+  <ul class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <h3><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+        <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}</p>
+        <p>{{ post.description }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+
+  {% include pagination.html %}
 
 </div>
