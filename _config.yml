@@ -69,7 +69,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 
 blog_name: Think. # your blog must have a name for it to show up in the nav bar
 blog_description:
-permalink: /about/:year/:title/
+permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
