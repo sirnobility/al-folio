@@ -19,10 +19,10 @@ social: false  # includes social icons at the bottom of the page
 ---
 Hi there.  
 
-I'm a University student (Studying EE, Minor in Physics/CS) that's interested in a large array of topics, and thoroughly enjoy learning about them. The underlying philosophy behind this website is to understand as much as I possible can about various topics I'm interested in.  
-
-The idea being if I research a topic well enough to present it in article form I will have reached a level of understanding of the topic. Naturally, as time goes on my thoughts and ideas about a subject will change, and I'll update accordingly.  
-
+I'm a University student (Studying EE, Minor in Physics/CS) that's interested in a large array of topics, and thoroughly enjoy learning about them. The underlying philosophy behind this website is to understand as much as I possible can about the array of topics I'm interested in.  
+&nbsp;
+The idea being; if I research a topic well enough to present it in article form I will have reached a level of understanding of the topic. Naturally, as time goes on my thoughts and ideas about a subject will change, and I'll update accordingly.  
+&nbsp;
 The Universe is eminently enigmatic. There are many facets of human knowledge that attempt to understand it at every level, and I'm here to explore that a bit.  
-
+&nbsp;
 Special shout out to Jesus for creating the Universe (John 1:3), and for giving humanity the ultimate gift; Salvation (John 3:16).  
