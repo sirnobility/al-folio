@@ -23,7 +23,7 @@ social: false  # includes social icons at the bottom of the page
 
 <p>The underlying motivation behind this website is knowledge acquisition. The idea being, if I research a topic well enough to present it in article form, I will have reached a certain level of understanding of the topic. Naturally, as time goes on, my thoughts and ideas about a subject will change, and I'll update articles accordingly.</p>
 
-<p>The Universe is eminently enigmatic, teeming with potential and the unknown. Every aspect seemingly infinitely complex. It's all so fascinating to me. There are many facets of human knowledge that attempt to understand it at every level, and I'm here to explore and learn about that.</p>
+<p>The Universe is eminently enigmatic, teeming with potential and the unknown. Every aspect of reality is seemingly infinitely complex. It's all so fascinating to me. There are many facets of human knowledge that attempt to understand it at every level, and I'm here to explore and learn about that.</p>
 
 <p>My proclivity is to see things through a theistic perspective, however, I recognize the value of viewing ideas from all angles, so I'll attempt to do so to the best of my ability when the article premise requires it.</p>
 
