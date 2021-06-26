@@ -12,10 +12,11 @@ layout: default
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">
-      <h3><a> class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-    </h1>
-     <p class="desc">{{ page.description }}</p>
+    <li>
+      <h3><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+      <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}</p>
+      <p>{{ post.description }}</p>
+    </li>
   </header>
 
   <article>
